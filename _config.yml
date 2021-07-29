@@ -27,4 +27,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['arquivo', 'sobre', 'contato']
+header_page_refs: ['arquivo', 'diagramas', 'sobre', 'contato']
