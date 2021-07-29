@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div>
+
+    {{ content }}
+
+    <h2>Diagramas traduzidos de: <a href="https://www.awsgeek.com/">@awsgeek</a></h2>
+    <h3>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">CC BY-SA 4.0</a>
+        </h2>
+    </h3>
+
+    <div>&nbsp;</div>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.tag == "diagrama" %}
+        <li>
+
+            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+            <h2>
+                <a class="post-link" href="{{ post.link }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+            </h2>
+
+            {{ post.excerpt | markdownify | truncatewords: 30 }}
+
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>
