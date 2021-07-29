@@ -16,19 +16,25 @@ layout: default
     <ul class="post-list">
         {% for post in site.posts %}
         {% if post.tag == "diagrama" %}
-        <li>
+        <center>
+            <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+                title="{{ post.title }}"><img src="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+                    width="320" height="240"></a>
 
-            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <li>
 
-            <h2>
-                <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
-                    title="{{ post.title }}">{{ post.title | escape }}</a>
-            </h2>
+                {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-            {{ post.excerpt | markdownify | truncatewords: 30 }}
+                <h2>
+                    <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+                        title="{{ post.title }}">{{ post.title | escape }}</a>
+                </h2>
 
-        </li>
+                {{ post.excerpt | markdownify | truncatewords: 30 }}
+
+            </li>
+        </center>
         {% endif %}
         {% endfor %}
     </ul>
