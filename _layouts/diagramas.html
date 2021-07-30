@@ -14,7 +14,8 @@ layout: default
     <div>&nbsp;</div>
 
     <ul class="post-list">
-        {% for post in site.diagramas %}
+        {% assign ordered_diagramas = site.diagramas | sort:"date" | reverse %}
+        {% for post in ordered_diagramas %}
         {% if post.tag == "diagrama" %}
         <center>
             <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
