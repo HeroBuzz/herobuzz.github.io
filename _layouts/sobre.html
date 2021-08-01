@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<style>
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+
+    .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/autores/franciscoedilton.jpg" alt="Chico" style="width:100%">
+      <div class="container">
+        <h2>Francisco Edilton</h2>
+        <p class="title">SRE | AWS Community Hero</p>
+        <p>
+            Francisco é um engenheiro de confiabilidade. Anteriormente, ele trabalhou como DevOps Engineer na Trimble. Antes de se mudar para a Irlanda, ele foi arquiteto de soluções na TDSIS, empresa de consultoria brasileira com foco em arquitetura de nuvem, desenvolvimento de software e segurança de rede.
+        </p>
+        <p>
+            Ele é um empreendedor, geek em tempo integral e gosta de estudar todos os tópicos relacionados à nuvem. Com mais de 15 anos de experiência em Segurança de Rede e Servidores Linux, seus estudos AWS estão atualmente focados em Python, Serverless e Data Science. Outros interesses incluem o mercado de ações, alimentos e viagens.
+        </p>
+        <p>
+            Francisco organiza o <a href="https://www.meetup.com/pt-BR/awsusergroupsp/" target="_blank">AWS User Group São Paulo</a>, ajudando a aumentar a comunidade da AWS e espalhando o conhecimento da AWS no Brasil.
+        </p>
+        <p><a href="https://twitter.com/franciscoed?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @franciscoed</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/assets/autores/marcelopalladino.jpg" alt="Palladino" style="width:100%">
+      <div class="container">
+        <h2>Marcelo Palladino</h2>
+        <p class="title">Software Engineer | AWS Community Hero</p>
+        <p>
+            Marcelo Palladino é engenheiro de software na Hi Platform e ajuda a construir sistemas baseados em nuvem para ajudar milhões de consumidores todos os meses. Ele é um arquiteto de nuvem apaixonado com experiência em sistemas distribuídos, aplicativos resilientes, microsserviços e contêineres. Ele possui mais de duas décadas de experiência em TI e 8 certificações AWS.
+        </p>
+        <p>
+            Marcelo é co-organizador do <a href="https://www.meetup.com/pt-BR/awsusergroupsp/" target="_blank">AWS User Group São Paulo</a>, AWS Community Day Brasil e palestrante. Ele acredita firmemente que o compartilhamento de conhecimento tem um impacto real na sociedade e é uma ótima maneira de aprender coisas novas.
+        </p>
+        <p>
+            Ele é pai orgulhoso (e super coruja) de dois filhos e está curtindo a vida com sua família e amigos.
+        </p>
+
+        <p><a href="https://twitter.com/mfpalladino?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @mfpalladino</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      </div>
+    </div>
+  </div>
+</div>
