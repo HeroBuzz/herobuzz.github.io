@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Contato
-tagline: Create a contact form and you are good to go
+tagline: O que mais gostaria de ver por aqui?
 ref: contato
 order: 1
 ---
 
-Jekyll is a great tool to create static sites but with static site, there's no backend to send your data to: that is why you need a third party service.
-
-[Go to the Home Page]({{ '/' | absolute_url }})
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="Z_tHC36wfEOsNx-UlleU7A" data-form="1"></script>
