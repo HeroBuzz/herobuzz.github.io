@@ -5,5 +5,5 @@ link: "https://ckarchive.com/b/75u7h8hroop7"
 tag: "arquivo"
 ---
 
-Devops Extreme, Survey Stack Overflow e Diversidade.
+#DevopsExtreme, ML, Survey Stack Overflow e diversidade
 
