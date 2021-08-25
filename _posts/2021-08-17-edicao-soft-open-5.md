@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Edição - Soft Open #5"
+title: "Edição #5 - Soft Open"
 link: "https://ckarchive.com/b/75u7h8hroop7"
 tag: "arquivo"
 ---
