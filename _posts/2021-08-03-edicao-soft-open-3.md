@@ -5,5 +5,5 @@ link: "https://ckarchive.com/b/d0ueh0hlodpw"
 tag: "arquivo"
 ---
 
-Urna Eletrônica
+Urna eletrônica
 
