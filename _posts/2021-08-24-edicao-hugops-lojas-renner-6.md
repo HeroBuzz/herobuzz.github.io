@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Edição - #hugops Lojas Renner #6"
+title: "Edição #6 - #hugops Lojas Renner"
 link: "https://ckarchive.com/b/zlughnhqwd6v"
 tag: "arquivo"
 ---
 
-#hugops Lojas Renner.
+Um grande #hugops Lojas Renner
 
