@@ -1,44 +1,44 @@
 ---
 layout: default
+title: Diagramas
+permalink: /diagramas/
 ---
 
-<div>
+<div>&nbsp;</div>
 
-    {{ content }}
+<p>
+    Diagramas traduzidos a partir do maravilhoso trabalho de Jerry Hargrove em <a href="https://www.awsgeek.com/">@awsgeek</a>, sob a licença <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">CC BY-SA 4.0</a>
+</p>
 
-    <h2>Diagramas traduzidos de: <a href="https://www.awsgeek.com/">@awsgeek</a></h2>
-    <h3>Licença: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">CC BY-SA 4.0</a>
-        </h2>
-    </h3>
-
-    <div>&nbsp;</div>
-
-    <ul class="post-list">
-        {% assign ordered_diagramas = site.diagramas | sort:"date" | reverse %}
-        {% for post in ordered_diagramas %}
-        {% if post.tag == "diagrama" %}
-        <center>
-            <hr>
-            <li>
+<div>&nbsp;</div>
 
 
-                <h2>
-                    <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
-                        title="{{ post.title }}">{{ post.title | escape }}</a>
-                </h2>
+{% assign ordered_diagramas = site.diagramas | sort:"date" | reverse %}
+{% for post in ordered_diagramas %}
+{% if post.tag == "diagrama" %}
 
-                <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
-                    title="{{ post.title }}"><img src="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
-                        width="320" height="240"></a>
-                {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
+<article class="post entry">
+
+    <header class="entry-header">
+        <h3><a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+            title="{{ post.title }}">{{ post.title | escape }}</a></h3>
+    </header>
+
+    <center>
+        <div class="entry-content">
+
+            <a class="post-link" href="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+                title="{{ post.title }}"><img src="{{ '/assets/diagramas/' | append: post.link | absolute_url }}"
+                    width="70%" height="70%"></a>
+
+            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <p class="post-meta">{{ post.date | date: date_format }}</p>
+
+        </div>
+    </center>
+
+</article>
 
 
-            </li>
-            <br>
-        </center>
-        {% endif %}
-        {% endfor %}
-    </ul>
-
-</div>
+{% endif %}
+{% endfor %}

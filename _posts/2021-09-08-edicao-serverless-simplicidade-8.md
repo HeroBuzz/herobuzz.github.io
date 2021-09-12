@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Edição #8 - Serverless e simplicidade"
+title: "HeroBuzz #8"
 link: "https://ckarchive.com/b/92uzhnhom72g"
 tag: "arquivo"
 ---
-
-Serverless e simplicidade.
-
+Serverless e simplicidade
