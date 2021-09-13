@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Edição #4 - Soft Open"
+title: "HeroBuzz #4"
 link: "https://ckarchive.com/b/38uphkhenzn8"
 tag: "arquivo"
 ---
-
-Diagrama AWS em português
-
+Diagramas AWS em português

@@ -1,7 +1,7 @@
 ---
 layout: arquivo
 title: Arquivo
-tagline: What I'm doing now
+tagline: Arquivo com todas as edições da HeroBuzz
 permalink: /arquivo.html
 ref: arquivo
 order: 2

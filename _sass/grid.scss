@@ -1,0 +1,41 @@
+/* Grid
+-------------------------------------------------- */
+.column {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.one-half,
+.one-third,
+.two-thirds,
+.one-fourth {
+  width: 100%;
+}
+
+.one-half,
+.one-fourth {
+  @media (min-width: 550px) {
+    width: 50%;
+  }
+}
+
+.one-third {
+  @media (min-width: 750px) {
+    width: 33.33333333%;
+  }
+}
+
+.two-thirds {
+  @media (min-width: 750px) {
+    width: 66.66666666%;
+  }
+}
+
+.one-fourth {
+  @media (min-width: 1000px) {
+    width: 25%;
+  }
+}

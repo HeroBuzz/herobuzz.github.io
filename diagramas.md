@@ -1,8 +1,8 @@
 ---
 layout: diagramas
 title: Diagramas
-tagline: What I'm doing now
+tagline: Diagramas dos serviços da AWS
 permalink: /diagramas.html
-ref: diagramas
-order: 2
+featured-image:
+og-image:
 ---

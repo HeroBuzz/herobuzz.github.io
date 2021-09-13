@@ -8,18 +8,22 @@ url: "https://herobuzz.com.br" # change this to the base hostname & protocol for
 
 google_analytics:
 
-# cayman-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
   date_format: "%b %-d, %Y"
 
 theme: # leave it empty
 
-# social
-# author: lorepirri
-# image: /thumbnail-jumbo.png
-# twitter:
-#   username: lorepirri
+encoding: utf-8
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
   - jekyll-target-blank
@@ -31,3 +35,6 @@ header_page_refs: ['arquivo', 'diagramas', 'sobre', 'contato', 'newsletter']
 
 collections:
   - diagramas
+
+include: ["_posts", "_layouts", "_includes", "_diagramas"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "gulpfile.js", "package.json", "mailchimp.html", "newsletter.html"]

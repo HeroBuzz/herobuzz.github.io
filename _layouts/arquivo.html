@@ -1,32 +1,41 @@
 ---
 layout: default
+title: Arquivo
+permalink: /arquivo/
 ---
+{% for post in site.posts %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
 
-<div>
+    <div class="row">
 
-    {{ content }}
+      <div class="column one-half blog-teaser">
+        <article class="post entry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-    <h2>Últimas edições</h2>
+          <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
+          <p>{{ post.content }}</p>
+          <p class="entry-meta">
+            <time class="entry-time" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </p>
 
-    <div>&nbsp;</div>
+        </article>
+      </div>
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        {% if post.tag == "arquivo" %}
-        <li>
+  {% else %}
 
-            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <div class="column one-half blog-teaser">
+        <article class="post entry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-            <h2>
-                <a class="post-link" href="{{ post.link }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-            </h2>
+          <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
+          <p>{{ post.content }}</p>
+          <p class="entry-meta">
+            <time class="entry-time" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </p>
 
-            {{ post.excerpt | markdownify | truncatewords: 30 }}
+        </article>
+      </div>
 
-        </li>
-        {% endif %}
-        {% endfor %}
-    </ul>
+    </div>
 
-</div>
+  {% endif %}
+{% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contato
-tagline: O que mais gostaria de ver por aqui?
+tagline: O que mais você gostaria de ver por aqui?
 ref: contato
 order: 1
 ---

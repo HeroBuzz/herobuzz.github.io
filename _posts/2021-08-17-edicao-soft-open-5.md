@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Edição #5 - Soft Open"
+title: "HeroBuzz #5"
 link: "https://ckarchive.com/b/75u7h8hroop7"
 tag: "arquivo"
 ---
-
-#DevopsExtreme, ML, Survey Stack Overflow e diversidade
-
+#DevopsExtreme e diversidade
