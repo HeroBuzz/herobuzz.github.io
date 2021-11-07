@@ -4,4 +4,4 @@ title: "HeroBuzz #16"
 link: "https://ckarchive.com/b/n4uohvh77kn4"
 tag: "arquivo"
 ---
-AWS Community Day Brasil e Novidades
+Community Day e Novidades
