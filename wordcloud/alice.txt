@@ -1,0 +1,63 @@
+Na semana anterior…
+O AWS Community Day Brasil 2021 está há duas semanas de ocorrer. O evento cresceu em número de palestrantes, na participação de mulheres organizando e palestrando, e no número expressivo de pessoas inscritas. São quase 1000 pessoas inscritas para o evento, que será o maior encontro de grupos de usuários AWS do Brasil.  
+
+Um evento sobre tecnologia, 100% em português, totalmente organizado por pessoas voluntárias e com a grande Yara Mascarenhas fazendo a abertura.
+
+O Brasil pode e deve ser mais atrativo para os brasileiros e para o resto do mundo. Na humilde opinião destes que o escrevem, este é um dos maiores desafios que estamos enfrentando em nosso país neste momento. 
+
+Inscreva-se e venha fazer parte do evento conosco!
+
+
+
+
+A área de tecnologia é inclusiva?
+Se você acompanhou a discussão no Twitter na semana passada, viu que deu pano prá manga, certo? 
+
+Resumo rápido da nossa visão: não é!
+
+Deixe-nos compartilhar um dado que acompanhamos e medimos no AWS User Group São Paulo, um grupo de usuários com mais de 8000 pessoas e que tem encontros regulares todos os meses a mais de 5 anos. Menos de 3% das pessoas que comparecem aos encontros do grupo são mulheres. 
+
+De todas as propostas de atividades do AWS Community Day Brasil, 14% foram feitas por mulheres. 
+
+O problema é ainda mais complicado, pois há outras dimensões. Quer dizer, estamos falando de gênero. O que acontece, por exemplo, quando a análise é feita levando-se em consideração pessoas de baixa renda? 
+
+Se formos analisar os locais nos quais os encontros ocorrem (pensando em encontros presenciais), o grupo acontece longe das periferias e longe dos locais mais afastados da cidade de São Paulo. Ah, alguém pode argumentar, os encontros virtuais tornam o grupo mais inclusivo! Não é tão simples. Se considerarmos apenas a infraestrutura básica, estamos falando de acesso à internet e computador, por exemplo. Isso é uma barreira e tanto.  
+
+Analise o quadro geral (economia/desemprego/acesso a educação), inclua aí aspectos como ter alguma noção de inglês, acesso a cursos e recursos para estudo. Nossa área está longe de ser inclusiva!
+Novidades AWS
+AWS Glue Crawlers com suporte para notificações de eventos do Amazon S3. Um Glue Crawler torna a descoberta de conjuntos de dados mais simples, lendo dados no Amazon S3, por exemplo, extraindo seu esquema e mantendo automaticamente o catálogo de dados e os metadados. Com este lançamento é possível configurar notificações de eventos do Amazon S3 como fonte para os crawlers atualizarem incrementalmente as tabelas do catálogo de dados do AWS Glue. Este novo modo vai proporcionar redução do custo e tempo para processamento. 
+
+Edição em massa do OpsItems no AWS Systems Manager OpsCenter. Uma boa redução no trabalho pesado não diferenciado.Você pode editar tanto no console como com um documento de automação.
+
+Calculadora de preços da AWS agora com suporte para o Amazon CloudFront. Toda ferramenta que nos ajuda a navegar na complexidade dos preços da AWS é bem-vinda. Só não entendemos como que isso não estava disponível antes.
+
+Melhorias em tabelas no Amazon QuickSight.. Diversas pequenas e boas melhorias em tabelas (tanto tabelas comuns como dinâmicas) para quem usa o QuickSight. 
+
+O AWS Fault Injection Simulator permite injetar falhas em instâncias spot. Ótimo lançamento para quem está praticando a engenharia do caos e usa o AWS Fault Injection Simulator. 
+Comunidade
+O grande Heitor Lessa vai palestrar no AWS Community Day Brasil 2021: “Refatorando uma aplicação Serverless! Tudo sobre Batching com SQS e failure modes, DynamoDB remodelling, Ports and Adapters pra testes, E2E testes, e idempotência!“
+
+Faça a sua inscrição!
+
+
+
+Que tal praticar Go e ainda aprender um pouco sobre análise de algoritmos? A Marcela Sisiliane escreveu um ótimo texto sobre o assunto no blog da “firma” em que ela trabalha. :) 
+
+A esta altura do campeonato você já segue a Jessica Temporal, certo? Não? Faça isso por você e indique o gitfichas para quem está começando com git ou para aquele seu amigo que trabalha em uma empresa que ainda usa o SVN. Isso aconteceu conosco semana passada! 
+
+
+Podcast
+GitHub Copilot: A IA vai tirar a profissão de pessoas que desenvolvem software? Esta é a provocação que o pessoal do Lambda3 Podcast traz neste episódio. Ótima oportunidade para vocês investir um tempo e conhecer o GitHub Copilot.
+
+Você já ouviu falar em times de plataforma? Estes times ajudam a tornar os times de desenvolvimento mais produtivos ou incentivam a criação de silos de conhecimento nas empresas? Este papo leve do devnaestrada faz pensar no assunto!
+
+Vagas de Emprego
+O pessoal do Elo7 está com vagas abertas para seu programa de estágio. 
+
+
+
+
+Ferramentas
+CloudPing: Na edição #10 indicamos ferramentas para medir latência e descobrir a região AWS mais "próxima". Esta ferramenta é parecida, mas entre as regiões da AWS.
+
+AWS Bill Export: Faça download das faturas AWS através de um endpoint API. Apesar de não recomendarmos o uso, pois não possui alguns recursos (como autenticação), vale a pena dar uma lida no código e no template do CloudFormation. 
