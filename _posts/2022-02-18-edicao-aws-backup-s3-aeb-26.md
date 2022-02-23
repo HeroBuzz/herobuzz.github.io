@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HeroBuzz #25"
+title: "HeroBuzz #26"
 link: "https://ckarchive.com/b/0vuwh9h48o35"
 tag: "arquivo"
 ---
