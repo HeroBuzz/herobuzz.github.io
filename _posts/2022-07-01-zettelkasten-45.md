@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "HeroBuzz #44"
-link: "https://ckarchive.com/b/n4uohvh886qzw"
+title: "HeroBuzz #45"
+link: "https://ckarchive.com/b/92uzhnhqq47xz"
 tag: "arquivo"
 ---
-Cloudflare Outage
+Zettelkasten
