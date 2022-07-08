@@ -2,6 +2,8 @@ from os import path
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from PIL import Image
+
 
 from wordcloud import WordCloud, STOPWORDS
 
@@ -10,13 +12,12 @@ d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
 # Read the whole text.
 text = open(path.join(d, 'alice.txt')).read()
-for i in range(80):
-    text += " HeroBuzz15\n"
+# for i in range(80):
+#     text += " HeroBuzz15\n"
 
-# Use numpy to create the circle shape
-x, y = np.ogrid[:300, :300]
-mask = (x - 150) ** 2 + (y - 150) ** 2 > 130 ** 2
-mask = 255 * mask.astype(int)
+# Picture Source
+# https://www.printablee.com/post_cloud-outline-printable_395379/
+mask = np.array(Image.open(path.join(d, "mask.png")))
 
 # wordcloud already has some stopwords list
 stopwords_default = set(STOPWORDS)
